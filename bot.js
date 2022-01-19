@@ -3,7 +3,7 @@ const Logging = require('./logging.js');
 const Initialize = require('./initialize.js');
 
 const Discord = require('discord.js');
-const settings = require('./settings.json');
+
 const bot = new Discord.Client();
 const bannedWords = Initialize.loadBannedWords();
 
