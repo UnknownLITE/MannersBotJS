@@ -35,4 +35,4 @@ bot.on('guildBanAdd', (guild, user) => {
   Logging.logUserBan(user, guild);
 });
 
-bot.login(process.env['TOKEN']);
+bot.login(process.env.TOKEN);
